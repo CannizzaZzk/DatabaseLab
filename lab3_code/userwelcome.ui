@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserWelcome</class>
+ <widget class="QMainWindow" name="UserWelcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/human.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 135 , 228);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>航班查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>170</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:blue;
+    background-color:rgb(255 , 255 , 255);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(255 , 235 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(255 , 235 , 255);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>订单查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="billbtn">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>250</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:blue;
+    background-color:rgb(255 , 255 , 255);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(255 , 235 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(255 , 235 , 255);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>账单信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="billbtn_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>250</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:blue;
+    background-color:rgb(255 , 255 , 255);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(255 , 235 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(255 , 235 , 255);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>取票通知</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="billbtn_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>320</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:blue;
+    background-color:rgb(255 , 255 , 255);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(255 , 235 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(255 , 235 , 255);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

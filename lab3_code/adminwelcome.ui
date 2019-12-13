@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminWelcome</class>
+ <widget class="QMainWindow" name="AdminWelcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>180</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:blue;
+    background-color:rgb(255 , 255 , 255);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(255 , 235 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(255 , 235 , 255);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>订单管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 135 , 228);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string> 航班管理</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/admin.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:blue;
+    background-color:rgb(255 , 255 , 255);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(255 , 235 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(255 , 235 , 255);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>增加管理员账号</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>280</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    color:blue;
+    background-color:rgb(255 , 255 , 255);
+    border-radius:5px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(255 , 235 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(255 , 235 , 255);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

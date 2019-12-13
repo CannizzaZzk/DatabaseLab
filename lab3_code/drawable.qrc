@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IMG_3907.JPG</file>
+        <file>admin.png</file>
+        <file>human.png</file>
+        <file>login_pass.png</file>
+        <file>login_user.png</file>
+        <file>loginico.png</file>
+        <file>pay.png</file>
+    </qresource>
+</RCC>
